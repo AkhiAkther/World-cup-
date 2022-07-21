@@ -1,0 +1,183 @@
+/* common styles */
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:whitesmoke;
+    
+ }
+ i{
+    display: contents;
+ }
+ main{
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+
+ }
+ 
+
+/* Headers styles */
+    
+.container{
+    margin-top: 25px;
+
+}
+.banner{
+    display:flex;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    
+    
+    
+}
+.banner-img{
+    width: 50%;
+}
+.banner-info{
+    padding: 40px ;
+    width: 50%;
+}
+.banner-info h1{
+        font-size: 40px;
+
+}
+strong{
+    font-weight: bold;
+    color: brown;
+}
+.live-button{
+    padding: 15px 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 7px;
+}
+/* blog styles  */
+.middle{
+    display: flex;
+    margin: 30px 0;
+}
+
+        
+
+.matches{
+    width: 280px;
+    height: 280px;
+    background-color: black;
+    width: fixed;
+    
+    }
+    .blog-nav{
+        margin-top: 30px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .blog-nav-1 {
+        
+    
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin:30px;
+
+ }
+ .blog-nav-2 {
+    
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin:30px;
+ }
+ .blog-nav-3 {
+    text-align: center;
+    background-color:brown;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin:30px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+ }
+ .blog-nav-3 a{
+    color: white;
+ }
+
+ 
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 8px;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+
+}
+.icons {
+    display:flex;
+    align-items: center;
+    
+}
+.icons p{
+    margin-right: 20px;
+}
+.icon{
+    margin-right: 10px;
+}
+.view{
+    padding: 17px 20px;
+    background-color: brown;
+    color: rgb(247, 238, 238);
+    border-radius: 7px; 
+    border: none;
+    font-weight: 700;
+    display: none;
+    
+}
+
+
+
+
+/* Footers styles */
+.footers{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.footer-navigation a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 10px;
+}
+ /* 2nd website  */
+ .upcoming-match{
+    display:flex;
+    padding-bottom: 10px;
+ }
+ .blogs-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ }
+ 
+ .blog-2{
+    border: 1px solid rgba(255, 255, 255, 0.984);
+    padding: 40px ;
+    margin: 0 20px;
+    margin-bottom: 40px;
+ }
+ /* media Queries */
+ /* mobile devices */
+ 
+    
+ 
+    
+
+ 
